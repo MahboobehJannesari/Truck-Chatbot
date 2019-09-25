@@ -1,0 +1,13 @@
+ChatBot,User
+
+"Hello, What is your name?","Hi, Mr Smith"
+What do you do?,I work as fleet manager
+Do you have truck?,"Yes,I have"
+What is the number of your truck?,t is HU123
+what is specification of your truck?,"It is black, tank track"
+Bye,Bye
+
+"Hello, What is your name?","Hi, My name is John"
+What do you do?,I am Data scientist
+Do you have truck?,No
+Bye,Bye
