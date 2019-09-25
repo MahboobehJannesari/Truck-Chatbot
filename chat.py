@@ -7,7 +7,6 @@ chatbot = ChatBot('Truck Bot', read_only=True)
 recorded_chat_path = "./recorded_chat.csv"
 # path of csv file to save all information about trucks
 trucks_info_path = "./truck_info.csv"
-print("bye", "Bye".find("Bye"))
 
 def main():
     print("******To finish the conversation, Please type Bye*******")
