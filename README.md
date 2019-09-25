@@ -9,7 +9,8 @@ ChatterBot: https://github.com/gunthercox/ChatterBot and it can be improved by a
 
 ### Requirements
 - python 3.5
-- chatterbot
+- chatterbot 1.0.5
+- chatterbot-corpus 1.2.0
 - csv
 
 ```bash
