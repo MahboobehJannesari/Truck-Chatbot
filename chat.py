@@ -9,7 +9,7 @@ recorded_chat_path = "./recorded_chat.csv"
 trucks_info_path = "./truck_info.csv"
 
 def main():
-    print("******To finish the conversation, Please type Bye*******")
+    print("******To finish the conversation, Please type Bye")
 
     # csv file for recording conversation, if it is not exist, it will created
     csv_file_chat = open(recorded_chat_path, "a")
