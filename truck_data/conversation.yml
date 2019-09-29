@@ -1,0 +1,86 @@
+categories:
+- conversation
+conversations:
+- - fleet owner.
+  - do you have a truck?
+- - fleet manager.
+  - do you have a truck?
+- - data scientist.
+  - do you have a truck?
+- - doctor.
+  - do you have a truck?
+- - teacher.
+  - do you have a truck?
+- - driver.
+  - do you have a truck?
+- - seller
+  - do you have a truck?
+- - i am a fleet owner.
+  - do you have a truck?
+- - i am a fleet manager.
+  - do you have a truck?
+- - i work as a fleet owner.
+  - do you have a truck?
+- - i am a Data scientist.
+  - do you have a truck?
+- - i am a teacher.
+  - do you have a truck?
+- - no.
+  - bye.
+- - no, I do not have.
+  - bye.
+- - no, I do not.
+  - bye.
+- - yes I have
+  - (specification) what is the Size of your truck, light, medium or heavy?
+- - yes, I have.
+  - (specification) what is the Size of your truck, light, medium or heavy?
+- - yes.
+  - (specification) what is the Size of your truck, light, medium or heavy?
+- - yes I have.
+  - (specification) what is the Size of your truck, light, medium or heavy?
+- - light
+  - (specification) what is the class of your truck (eg. class 1-8)?
+- - medium
+  - (specification) what is the class of your truck (eg. class 1-8)?
+- - heavy
+  - (specification) what is the class of your truck (eg. class 1-8)?
+- - class 1
+  - what is the number of your truck?
+- - class 2
+  - what is the number of your truck?
+- - class 3
+  - what is the number of your truck?
+- - class 4
+  - what is the number of your truck?
+- - class 5
+  - what is the number of your truck?
+- - class 6
+  - what is the number of your truck?
+- - class 7
+  - what is the number of your truck?
+- - class 8
+  - what is the number of your truck?
+- - class1
+  - what is the number of your truck?
+- - class2
+  - what is the number of your truck?
+- - class3
+  - what is the number of your truck?
+- - class4
+  - what is the number of your truck?
+- - class5
+  - what is the number of your truck?
+- - class6
+  - what is the number of your truck?
+- - class7
+  - what is the number of your truck?
+- - class8
+  - what is the number of your truck?            
+
+
+
+
+
+
+

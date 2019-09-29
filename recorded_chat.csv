@@ -1,13 +1,22 @@
 ChatBot,User
 
-"Hello, What is your name?","Hi, Mr Smith"
-What do you do?,I work as fleet manager
-Do you have truck?,"Yes,I have"
-What is the number of your truck?,t is HU123
-what is specification of your truck?,"It is black, tank track"
+"Hello, What is your name?",john smith
+what do you do?,i am a fleet owner
+do you have a truck?,yes
+"(specification) what is the Size of your truck, light, medium or heavy?",heavy
+(specification) what is the class of your truck (eg. class 1-8)?,class4
+what is the number of your truck?,gl-1099
 Bye,Bye
 
-"Hello, What is your name?","Hi, My name is John"
-What do you do?,I am Data scientist
-Do you have truck?,No
+"Hello, What is your name?",david brown
+what do you do?,teacher
+do you have a truck?,no
+bye.,Bye
+
+"Hello, What is your name?",George yohan
+what do you do?,driver
+do you have a truck?,yes
+"(specification) what is the Size of your truck, light, medium or heavy?",light
+(specification) what is the class of your truck (eg. class 1-8)?,class 4
+what is the number of your truck?,opl-345
 Bye,Bye

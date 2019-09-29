@@ -3,15 +3,17 @@ This repository build a small interactive system (Chat Bot) to identify trucks, 
 Customer is Fleet Owner or Fleet manager.
 All conversations recorded for future analysis.
 
-This chatbot is trained on some lists of short conversation using
+This chatbot is trained on Corpus of truck_data using
 ChatterBot: https://github.com/gunthercox/ChatterBot and it can be improved by adding new conversations.
 
 
 ### Requirements
-- python 3.5
-- chatterbot 1.0.5
-- chatterbot-corpus 1.2.0
+- python 3.5,3.6
+- chatterbot
+- chatterbot-corpus
 - csv
+- nltk
+- nameparser
 
 ```bash
 pip install -r requirements.txt
@@ -33,37 +35,35 @@ python chat.py
 
 ### Example of output
 
-******To finish the conversation, Please type Bye*******
+****** To finish the conversation, Please type Bye  *******
 
-ChatBot: Hello, What is your name?
+ChatBot: Hello, What is your name (First name and last name)?
 
-User:Hi, Mr John 
+User:john smith
 
-ChatBot: What do you do?
+JOHN SMITH, what do you do?
 
-User:I work as fleet manager
+User:i am a fleet owner
 
-ChatBot: Do you have truck?
+ChatBot: do you have a truck?
 
-User:Yes,I have
+User:yes
 
-ChatBot: What is the number of your truck?
+ChatBot: (specification) what is the Size of your truck, light, medium or heavy?
 
-ChatBot: The number is PA1234
+User:heavy
 
-User:The number is PA1234
+ChatBot: (specification) what is the class of your truck (eg. class 1-8)?
 
-ChatBot: what is specification of your truck?
+User:class4
 
-User:mini, red
+ChatBot: what is the number of your truck?
 
-ChatBot: Red, mini track
+User:GL-1099
 
-User:bye
+ChatBot: Thanks for your information, Bye.
 
-ChatBot: Bye
-
-Trucks information: {'Truck_Number': 'The number is PA1234', 'Specifications': 'mini, red'}
+Trucks information: {'Specifications': ['heavy', 'class4'], 'Truck_Number': 'gl-1099'}
 
 ****All conversation was recorded in ./recorded_chat.csv****
 

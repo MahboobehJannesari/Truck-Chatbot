@@ -1,3 +1,5 @@
 chatterbot
 chatterbot-corpus
 csv
+nltk
+nameparser
