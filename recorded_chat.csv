@@ -1,22 +1,42 @@
 ChatBot,User
 
-"Hello, What is your name?",john smith
-what do you do?,i am a fleet owner
+"Hello, What is your name?",John smith
+what do you do?,fleet owner
 do you have a truck?,yes
-"(specification) what is the Size of your truck, light, medium or heavy?",heavy
-(specification) what is the class of your truck (eg. class 1-8)?,class4
-what is the number of your truck?,gl-1099
+(specification) what is the brand of your truck?,volvo
+"(specification) what is the Size of your truck, light, medium or heavy?",light
+(specification) what is the class of your truck (eg. class 1-8)?,class2
+what is the number of your truck?,pa-2345-00
 Bye,Bye
 
-"Hello, What is your name?",david brown
+"Hello, What is your name?",David brown
+what do you do?,i am a driver
+Do you have a truck?,yes
+(specification) what is the brand of your truck?,tata
+"(specification) what is the Size of your truck, light, medium or heavy?",medium
+(specification) what is the class of your truck (eg. class 1-8)?,class7
+what is the number of your truck?,hpo-2345-00
+Bye,Bye
+
+"Hello, What is your name?",roben koch
 what do you do?,teacher
 do you have a truck?,no
 bye.,Bye
 
-"Hello, What is your name?",George yohan
+"Hello, What is your name?",Tomas Simon
+what do you do?,fleet manager
+do you have a truck?,yes
+(specification) what is the brand of your truck?,daimler
+"(specification) what is the Size of your truck, light, medium or heavy?",heavy
+(specification) what is the class of your truck (eg. class 1-8)?,class5
+what is the number of your truck?,uo-rtooo-00
+Bye,Bye
+
+"Hello, What is your name?",Stefan grich
 what do you do?,driver
 do you have a truck?,yes
+(specification) what is the brand of your truck?,dongfeng
 "(specification) what is the Size of your truck, light, medium or heavy?",light
-(specification) what is the class of your truck (eg. class 1-8)?,class 4
-what is the number of your truck?,opl-345
+(specification) what is the class of your truck (eg. class 1-8)?,class4
+what is the number of your truck?,jio-0000
 Bye,Bye

@@ -21,13 +21,7 @@ pip install -r requirements.txt
 
 ### Usage
 
-In first step, chatbot should be trained on "truck_data" by running the train script:
-
-```python
-python train.py
-```
-
-In second step, chat start by running the chat script, chat is done in Terminal.:
+Chat start by running the chat script, chat is done in Terminal.:
 
 ```python
 python chat.py
@@ -39,32 +33,35 @@ python chat.py
 
 ChatBot: Hello, What is your name (First name and last name)?
 
-User:john smith
+User:John smith
 
 JOHN SMITH, what do you do?
 
-User:i am a fleet owner
+User:fleet owner
 
 ChatBot: do you have a truck?
 
 User:yes
 
+ChatBot: (specification) what is the brand of your truck?
+
+User:volvo
+
 ChatBot: (specification) what is the Size of your truck, light, medium or heavy?
 
-User:heavy
+User:light
 
 ChatBot: (specification) what is the class of your truck (eg. class 1-8)?
 
-User:class4
+User:class2
 
 ChatBot: what is the number of your truck?
 
-User:GL-1099
+User:PA-2345-00
 
 ChatBot: Thanks for your information, Bye.
 
-Trucks information: {'Specifications': ['heavy', 'class4'], 'Truck_Number': 'gl-1099'}
-
+Trucks information: {'Specifications': ['volvo', 'light', 'class2'], 'Truck_Number': 'pa-2345-00'}
 ****All conversation was recorded in ./recorded_chat.csv****
 
 

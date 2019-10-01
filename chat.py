@@ -2,6 +2,8 @@ from chatterbot import ChatBot
 from nameparser.parser import HumanName
 import csv
 import nltk
+from chatterbot.trainers import ChatterBotCorpusTrainer
+
 
 # detect name of human
 def get_human_names(text):
@@ -25,6 +27,7 @@ def get_human_names(text):
 
 
 def main():
+    corpus_path = "./truck_data/"
 
     # a chatbot that do not learn duraing chat
     chatbot = ChatBot('Truck Bot',
@@ -37,6 +40,11 @@ def main():
                                   'maximum_similarity_threshold': 0.9
                               }
                           ], read_only=True)
+
+    trainer = ChatterBotCorpusTrainer(chatbot)
+    trainer.train('chatterbot.corpus.english.greetings')
+
+    trainer.train(corpus_path)
 
 
     # path of csv file to save all conversation

@@ -31,19 +31,25 @@ conversations:
   - bye.
 - - no, I do not.
   - bye.
-- - yes I have
-  - (specification) what is the Size of your truck, light, medium or heavy?
-- - yes, I have.
-  - (specification) what is the Size of your truck, light, medium or heavy?
-- - yes.
-  - (specification) what is the Size of your truck, light, medium or heavy?
 - - yes I have.
+  - (specification) what is the brand of your truck?
+- - yes I have
+  - (specification) what is the brand of your truck?
+- - yes, I have.
+  - (specification) what is the brand of your truck?
+- - yes.
+  - (specification) what is the brand of your truck?
+- - Man, Volvo
   - (specification) what is the Size of your truck, light, medium or heavy?
-- - light
+- - man
+  - (specification) what is the Size of your truck, light, medium or heavy?
+- - Man, Volvo, Daimler, PACCAR Inc, Iveco, Hino, Navistar, Dongfeng,  TATA Motors Limited, tata, paccar.
+  - (specification) what is the Size of your truck, light, medium or heavy?
+- - light.
   - (specification) what is the class of your truck (eg. class 1-8)?
-- - medium
+- - medium.
   - (specification) what is the class of your truck (eg. class 1-8)?
-- - heavy
+- - heavy.
   - (specification) what is the class of your truck (eg. class 1-8)?
 - - class 1
   - what is the number of your truck?
